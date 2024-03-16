@@ -151,5 +151,3 @@ VSVersionInfo(
   ]
 )
 ```
-
-*Ressource :* `https://www.tiger-222.fr/?d=2018/05/17/21/45/57-pyinstaller-windows-et-les-proprietes-de-lexecutable`
