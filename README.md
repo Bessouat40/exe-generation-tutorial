@@ -124,8 +124,8 @@ pyinstaller --version-file=/Path/to/properties.rc <path-to-your-main-file> --pat
 ```rc
 VSVersionInfo(
   ffi=FixedFileInfo(
-    filevers=(3, 1, 0, 0),
-    prodvers=(3, 1, 0, 0),
+    filevers=(1, 0, 0, 0),
+    prodvers=(1, 0, 0, 0),
     mask=0x3f,
     flags=0x0,
     OS=0x40004,
@@ -138,14 +138,14 @@ VSVersionInfo(
       [
       StringTable(
         u'040904B0',
-        [StringStruct(u'CompanyName', u'Nuxeo'),
-        StringStruct(u'FileDescription', u'Desktop synchronization client for Nuxeo'),
-        StringStruct(u'FileVersion', u'3.1.0'),
-        StringStruct(u'InternalName', u'ndrive'),
-        StringStruct(u'LegalCopyright', u'\xa9 Nuxeo. All rights reserved.'),
-        StringStruct(u'OriginalFilename', u'ndrive.exe'),
-        StringStruct(u'ProductName', u'Nuxeo Drive'),
-        StringStruct(u'ProductVersion', u'3.1.0')])
+        [StringStruct(u'CompanyName', u'Company'),
+        StringStruct(u'FileDescription', u'Description of my script'),
+        StringStruct(u'FileVersion', u'1.0.0'),
+        StringStruct(u'InternalName', u'script'),
+        StringStruct(u'LegalCopyright', u'\xa9 MyScript. All rights reserved.'),
+        StringStruct(u'OriginalFilename', u'script.exe'),
+        StringStruct(u'ProductName', u'Script'),
+        StringStruct(u'ProductVersion', u'1.0.0')])
       ]),
     VarFileInfo([VarStruct(u'Translation', [0, 0])])
   ]
